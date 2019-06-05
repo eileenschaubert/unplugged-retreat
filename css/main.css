@@ -101,6 +101,52 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   html {
+     font-size: 16px;
+   }
+
+   body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+     line-height: 1.4;
+   }
+
+   ul,
+   ol {
+     list-style-type: none;
+   }
+
+   a {
+     color: #e2e3ed;
+     text-decoration: none;
+   }
+
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.75em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.375em;
+   }
+
+   p {
+     font-size: .875em;
+   }
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+     font-style: normal;
+   }
 
    .content-wrapper {
      width: 90%;
