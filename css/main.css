@@ -95,8 +95,10 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-
+/* Black #527158 */
+/* Green #527158 */
+/* Dark Green #2a423a */
+/* Change Nav Links to all caps */
 
  /* ==========================================================================
    Author's custom styles
@@ -109,6 +111,8 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      line-height: 1.4;
+     color: #e2e3ed;
+
    }
 
    ul,
@@ -124,12 +128,14 @@ textarea {
    h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.75em;
+     font-weight: normal;
    }
 
    h3,
    h4 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.375em;
+     font-weight: normal;
    }
 
    p {
@@ -161,6 +167,7 @@ footer  {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -187,6 +194,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+
   /* padding: 20px 0; */
 }
 
@@ -194,6 +202,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  text-transform: uppercase;
 }
 
 footer {
@@ -240,7 +249,12 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.hero-area h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: normal;
 }
 
 /* Aside */
@@ -250,7 +264,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
   /* margin: 30px 0; */
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -278,6 +318,7 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -287,6 +328,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -305,13 +347,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
+  width: 100%; /* variance */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
   /* margin: 50px 0; */
 }
 
@@ -326,6 +371,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -533,7 +579,10 @@ aside {
         width: 40%;
       }
 
-      .contact-section, .content-wrapper h2 {
+      .contact-section {
+        width: 100%;
+      }
+      .contact-section .content-wrapper h2 {
         width: 80%;
       }
 
