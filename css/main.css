@@ -394,7 +394,6 @@ input[type=button] {
   left: 0;
 }
 
-
 .contact-section {
   width: 100%; /* variance */
   display: flex;
@@ -660,6 +659,9 @@ input[type=button] {
       .mission-content p {
         width: 40%;
       }
+      /* .map figure {
+        padding-bottom: 45%;
+      } */
 
       .contact-section {
         width: 100%;
@@ -736,6 +738,10 @@ input[type=button] {
       .contact-section .content-wrapper h2 {
         width: 100%;
       }
+
+      /* .map figure {
+        padding-bottom: 37.5%;
+      } */
 
       .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
