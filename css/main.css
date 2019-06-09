@@ -99,7 +99,7 @@ textarea {
 /* Green #527158 */
 /* Dark Green #2a423a */
 /* header-divider is not 100% wide since it's within the content wrapper */
-/* logo is not centering vertically on desktop homepage but is on other pages */
+
 /* nav links get wide on desktop beyond 11% on spec set at 20% */
 
 /* resize hero image height -- too tall on mobile not zoomed in like spec */
@@ -377,6 +377,23 @@ input[type=button] {
   flex-flow: row wrap;
   background-color: #527158;
 }
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 .contact-section {
   width: 100%; /* variance */
