@@ -104,6 +104,8 @@ textarea {
 
 /* resize hero image height -- too tall on mobile not zoomed in like spec */
 
+/* for the social icons set a font size in rem on the div then use fa-sm, lg or try setting to other fonts */
+
 
 
 
@@ -246,6 +248,7 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+/*  */
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -253,10 +256,21 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #2a423a;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+/*  */
+
 
 footer .copyright {
   margin: 20px 0;
@@ -649,6 +663,21 @@ input[type=button] {
         margin-bottom: 0;
       }
 
+      footer h4 {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+      }
+
+      footer p {
+          line-height: 1.5;
+      }
+
+      footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
+      }
+
+
       footer .copyright {
         width: 100%;
       }
@@ -664,9 +693,9 @@ input[type=button] {
       .mission-content p {
         width: 40%;
       }
-      /* .map figure {
+      .map figure {
         padding-bottom: 45%;
-      } */
+      }
 
       .contact-section {
         width: 100%;
@@ -680,6 +709,11 @@ input[type=button] {
         justify-content: space-between;
         align-items: flex-start;
       }
+
+      .contact-content h4 {
+        font-size: 1.5em;
+      }
+
 
    /* ==========================================================================
       FAQ Page
@@ -744,9 +778,9 @@ input[type=button] {
         width: 100%;
       }
 
-      /* .map figure {
+      .map figure {
         padding-bottom: 37.5%;
-      } */
+      }
 
       .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
