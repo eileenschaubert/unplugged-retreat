@@ -98,17 +98,21 @@ textarea {
 /* Black #527158 */
 /* Green #527158 */
 /* Dark Green #2a423a */
-/* header-divider is not 100% wide since it's within the content wrapper */
 
-/* nav links get wide on desktop beyond 11% on spec set at 20% */
+/* FAQ - heading should be left aligned not centered on mobile */
+/* FAQ - tighten up all spacing on text */
 
-/* resize hero image height -- too tall on mobile not zoomed in like spec */
+/* Mission - tighten up spacing on this section */
+/* Contact - tighten up spacing on this section */
 
-/* for the social icons set a font size in rem on the div then use fa-sm, lg or try setting to other fonts */
+/* Tablet:H1 move it higher within photo background (reduce top margin of 100px) */
+/* Tablet:CTA widen the 2 columns */
+/* Tablet:Review reduce spacing for background */
+/* Tablet:Footer reduce spacing for background */
+/* Tablet:Nav widen the page links */
 
-
-
-
+/* Desktop:Features widen heading */
+/* Desktop:Review move the text closer to image */
 
 
  /* ==========================================================================
@@ -140,6 +144,7 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
      font-weight: normal;
+     margin: 0;
    }
 
    h3,
@@ -147,6 +152,7 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 1.125em;
      font-weight: normal;
+     margin: 20px 0;
    }
 
    p {
@@ -232,6 +238,7 @@ header nav ul li {
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -241,14 +248,12 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-  text-align: center; /* why is this needed for mine? */
 }
 
 footer .contact {
   margin-bottom: 50px;
 }
 
-/*  */
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -269,13 +274,8 @@ footer .social-icons p i {
   font-size: 1.3125em;
 }
 
-/*  */
-
-
 footer .copyright {
   margin: 20px 0;
-  display: flex;
-  justify-content: center;
 }
 
 /* --------- Mobile Styles - Homepage ----------------- */
@@ -295,6 +295,7 @@ footer .copyright {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
   font-weight: normal;
+  line-height: 1.15em;
 }
 
 /* Aside */
@@ -315,7 +316,8 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  padding: 1em;
+  color: #9d9ea4;
   font-style: italic;
 }
 
@@ -447,10 +449,15 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
  /* ==========================================================================
@@ -625,6 +632,10 @@ input[type=button] {
         width: 50%;
       }
 
+      .features i {
+        margin-bottom: 30px;
+      }
+
       /* Tablet styles here - Reviews */
 
       .reviews article {
@@ -740,6 +751,10 @@ input[type=button] {
       }
 
       /* Desktop styles here - Hero Area */
+      .hero-area .content-wrapper {
+        margin: 50px 0;
+      }
+
       .hero-area h1 {
         width: 60%;
       }
@@ -792,6 +807,7 @@ input[type=button] {
 
       .faq h2 {
          width: 100%;
+         font-size: 3em;
       }
 
       .faq-content {
